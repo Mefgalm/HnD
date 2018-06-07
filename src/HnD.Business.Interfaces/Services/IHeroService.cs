@@ -4,6 +4,6 @@ namespace HnD.Business.Interfaces.Services
 {
     public interface IHeroService
     {
-        Result<HeroModel> CreateHero();
+        Result<HeroModel> CreateHero(string name);
     }
 }

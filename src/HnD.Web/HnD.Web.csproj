@@ -13,5 +13,6 @@
     <ProjectReference Include="..\HnD.Business\HnD.Business.csproj" />
     <ProjectReference Include="..\HnD.Repositories.Interfaces\HnD.Repositories.Interfaces.csproj" />
     <ProjectReference Include="..\HnD.Repositories\HnD.Repositories.csproj" />
+    <ProjectReference Include="..\HnD.View\HnD.View.csproj" />
   </ItemGroup>
 </Project>

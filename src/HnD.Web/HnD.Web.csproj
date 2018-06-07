@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HnD.Business.Interfaces\HnD.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\HnD.Business\HnD.Business.csproj" />
+    <ProjectReference Include="..\HnD.Repositories.Interfaces\HnD.Repositories.Interfaces.csproj" />
+    <ProjectReference Include="..\HnD.Repositories\HnD.Repositories.csproj" />
+  </ItemGroup>
+</Project>

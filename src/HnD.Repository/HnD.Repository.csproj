@@ -2,4 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HnD.Repository.Interfaces\HnD.Repository.Interfaces.csproj" />
+  </ItemGroup>
 </Project>

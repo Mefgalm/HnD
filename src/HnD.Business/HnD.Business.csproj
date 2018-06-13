@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\HnD.Business.Interfaces\HnD.Business.Interfaces.csproj" />
-    <ProjectReference Include="..\HnD.Repositories.Interfaces\HnD.Repositories.Interfaces.csproj" />
+    <ProjectReference Include="..\HnD.Repository.Interfaces\HnD.Repository.Interfaces.csproj" />
   </ItemGroup>
 </Project>

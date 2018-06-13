@@ -2,11 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using HnD.Business;
-using HnD.Business.Interfaces.Services;
-using HnD.Business.Services;
-using HnD.Repositories;
-using HnD.Repositories.Interfaces.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,10 +26,6 @@ namespace HnD.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-
-            services.AddScoped<IHeroRespository>();
-            services.AddScoped<IHeroService, HeroService>();
-            services.AddScoped<IHeroRespository, HeroRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
